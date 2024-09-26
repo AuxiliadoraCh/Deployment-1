@@ -17,7 +17,14 @@ button {
   border-radius: 5px;
 }
 
+.card-one {
+  text-align: center;
+  display: grid;
+  place-items: center;
+}
+
 #pokemonInfo1 {
+  width: fit-content;
   margin-top: 1rem;
   padding: 1rem;
   border-radius: 15px;
@@ -32,4 +39,27 @@ button {
 
 #pokemonInfo1 > p {
   font-size: 1.2rem;
+}
+
+#pokemonList {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.pokemon-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  text-align: left;
+}
+
+.remove-btn {
+  background-color: red;
+  color: black;
+  border-radius: 5px;
+  padding: 3px 6px;
+  border-radius: 3px;
+  cursor: pointer;
 }
