@@ -16,28 +16,24 @@ function mostrarPokemon(datosPokemon, contenedorNumero) {
   infoDiv.innerHTML = `
   <h2 class = "pk-name">${datosPokemon.name.toUpperCase()}</h2>
   <img class="pk-img" src="${datosPokemon.sprites.other["official-artwork"].front_default}">
-  <p>Number: ${datosPokemon.id} </p>
+  <p>Id: ${datosPokemon.id} </p>
   <p>Weight: ${datosPokemon.weight / 10}Kg</p>
   <p>Height: ${datosPokemon.height / 10}m</p>
-  
   `
 }
 
 //Error
 function mostrarError(contenedorNumero) {
-
   let infoDivID = `pokemonInfo${contenedorNumero}`;
   let infoDiv = document.getElementById(infoDivID);
   infoDiv.innerHTML = `
   <p class= "pk-ms">Pokemon no encontrado <br> Intenta con otro nombre o numero</p>
-  
 `
-
 }
 
-window.onload = function () {
-  document.getElementById("pokemonInput1").value = "25";
-  buscarPokemon(1);
-  document.getElementById("pokemonInput1").value = "4";
-  buscarPokemon(2)
-}
+// window.onload = function () {
+//   document.getElementById("pokemonInput1").value = "25";
+//   buscarPokemon(1);
+// }
+
+// hala auxa qua tal? cama va ta daa? djdsjkdsjkdskjdsjkdjsjdks
