@@ -72,5 +72,3 @@ function eliminarPokemon(pokemonId) {
 //   document.getElementById("pokemonInput1").value = "25";
 //   buscarPokemon(1);
 // }
-
-// hala auxa qua tal? cama va ta daa? djdsjkdsjkdskjdsjkdjsjdks
